@@ -5,7 +5,5 @@ public class RobotMain {
 		// TODO Auto-generated method stub
 		RobotTask task = new RobotTask();
 		task.run();
-		
 	}
-
 }
