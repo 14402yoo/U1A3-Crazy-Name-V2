@@ -1,6 +1,17 @@
 import becker.robots.*;
 
+/**
+ * A robot specialized in writing capital letters, extended from Robot class. 
+ */
 public class Letter extends Robot {
+	/**
+	 * 
+	 * @param var1 city of the map
+	 * @param var2 x coordinate of the starting point
+	 * @param var3 y coordinate of the starting point
+	 * @param var4 direction of the robot's initial heading
+	 * @param var5 initial amounts of Things that robot starts with
+	 */
     public Letter(City var1, int var2, int var3, Direction var4, int var5) {
         super(var1, var2, var3, var4, var5);
     } 
