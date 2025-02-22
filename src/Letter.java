@@ -5,6 +5,9 @@ public class Letter extends Robot {
         super(var1, var2, var3, var4, var5);
     } 
 
+	/**
+	 * Write a capital letter of S by putting Things.
+	 */
     public void printS() {
         move_and_put(4);	
 		turn_right();	
@@ -27,6 +30,9 @@ public class Letter extends Robot {
 		move(6);
     }
     
+	/**
+	 * Write a capital letter of A by putting Things.
+	 */
     public void printA() {
 		turnLeft();
 		move_and_put(5);
@@ -54,6 +60,9 @@ public class Letter extends Robot {
 		turnLeft();
     }
     
+	/**
+	 * Write a capital letter of R by putting Things.
+	 */
     public void printR() {
 		turnLeft();
 		move_and_put(6);
@@ -86,6 +95,9 @@ public class Letter extends Robot {
 		turn_right(); 
     }
 
+	/**
+	 * Write a capital letter of H by putting Things.
+	 */
     public void printH() {
 		turnLeft();
 		move_and_put(7);
