@@ -13,9 +13,9 @@ public class RobotTask {
 		LetterBot r = new LetterBot(waterloo, 1, 1, 999);	
 		//r.setSpeed(60);
 		r.drawS();
-		r.printA();
-		r.printR();
-		r.printA();
-		r.printH();
+		r.drawA();
+		r.drawR();
+		r.drawA();
+		r.drawH();
 	}
 }
