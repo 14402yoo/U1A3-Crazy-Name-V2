@@ -7,11 +7,12 @@ public class RobotTask {
 	 */
 	public void run() {
 		// build a random city called waterloo
-		City waterloo = new City();
+		City waterloo = new City(100, 100);
 		
 		// build a robot in the city waterloo starting at street 4, avenue 1
-		Letter r = new Letter(waterloo, 1, 1, Direction.EAST, 999);	
-		r.printS();
+		LetterBot r = new LetterBot(waterloo, 1, 1, 999);	
+		//r.setSpeed(60);
+		r.drawS();
 		r.printA();
 		r.printR();
 		r.printA();
